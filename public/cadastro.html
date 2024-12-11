@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Servant</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./assets/logo.png" sizes="32x32" type="imagem da logo">
+</head>
+<body class="body-formulario">
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao" aria-hidden="true">
+            <label for="menu" class="cabecalho__menu" aria-label="Alternar menu" aria-expanded="false">
+                <span class="cabecalho__menu__hamburguer"></span>
+            </label>
+            <nav class="lista-menu">
+                <ul>
+                    <li class="lista-menu__titulo">Servant</li>
+                    <li class="lista-menu__item"><a href="index.html" class="lista-menu__link" aria-label="Página inicial">Home</a></li>  
+                    <li class="lista-menu__item"><a href="contato.html" class="lista-menu__link" aria-label="Contato">Contato</a></li>
+                    <li class="lista-menu__item"><a href="download.html" class="lista-menu__link" aria-label="Download">Download</a></li>
+                    <li class="lista-menu__item"><a href="perfil.html" class="lista-menu__link" aria-label="Perfil">Login/Cadastro</a></li>          
+                </ul>
+            </nav>
+            <img src="./assets/SERVANT.svg" alt="Logo da Servant" class="logo">
+        </div>
+       <div class="container-padrao">
+        <ul class="opcoes">
+            <li class="opcoes__item"><a href="index.html" class="opcoes__link">Home</a></li>
+            <li class="opcoes__item"><a href="contato.html" class="opcoes__link">Contato</a></li>
+            <li class="opcoes__item"><a href="download.html" class="opcoes__link">Download</a></li>
+        </ul>
+        <a href="perfil.html" class="usuario"><img src="./assets/usuario.svg"></a>
+       </div>
+    </header>
+    <main class="main-perfil">
+        <section class="cadastro">
+            <h2 class="form-title">Cadastro</h2>
+            <form action="#" method="POST" class="form-cadastro" id="form-cadastro">
+                <label for="cadastro-nome" class="form-label">Nome:</label>
+                <input type="text" id="cadastro-nome" name="nome" placeholder="Evaristo Costa" class="form-input" required>
+                
+                <label for="cadastro-email" class="form-label">E-mail:</label>
+                <input type="email" id="cadastro-email" name="email" placeholder="exemplo@gmail.com" class="form-input" required>
+                
+                <label for="cadastro-password" class="form-label">Senha:</label>
+                <input type="password" id="cadastro-password" name="password" placeholder="Senha" class="form-input" required>
+                             
+                <label for="cadastro-cpf" class="form-label">CPF:</label>
+                <input type="text" id="cadastro-cpf" name="cpf" placeholder="000.000.000-00" class="form-input" required>
+                
+                <label for="cadastro-celular" class="form-label">Celular:</label>
+                <input type="text" id="cadastro-celular" name="celular" placeholder="(00)0 0000-0000" class="form-input" required>
+                
+                <button type="submit" class="form-button">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="rodape">
+        <ul>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="about.html">Sobre nós</a></li>
+        </ul>
+        <p class="copyright">© 2024 Servant - Todos os direitos reservados - Desenvolvido por Felyppe Marcelo e João Senna.</p>
+    </footer>
+    <script src="cadastro.js"></script>
+</body>
+</html>

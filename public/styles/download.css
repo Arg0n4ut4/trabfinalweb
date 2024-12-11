@@ -1,0 +1,74 @@
+.main-content {
+    margin-top: 10vh;
+    padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section__intro h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--cor-amarelo-primario);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section__intro p {
+    font-family: var(--fonte-paragrafo);
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.download-options h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    color: var(--cor-amarelo-secundario);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.download-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.download-item a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    font-family: var(--fonte-paragrafo);
+    color: var(--cor-amarelo-primario);
+}
+
+.download-item a:hover {
+    color: var(--cor-amarelo-secundario);
+}
+
+.download-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.download-item span {
+    display: block;
+    margin-top: 5px;
+}

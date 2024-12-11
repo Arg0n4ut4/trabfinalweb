@@ -1,0 +1,173 @@
+.headline {
+    width: 100%; 
+    max-width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--cor-verde-secundario);
+    color: var(--fonte-color-tres);
+    padding: 2rem;
+    box-sizing: border-box; 
+}
+
+.headline h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--cor-amarelo-primario);
+}
+
+.headline h1:hover {
+    color: var(--cor-amarelo-terciario);
+}
+
+.headline p {
+    font-family: var(--fonte-paragrafo);
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.headline .btn-primary {
+    background-color: #333;
+    color: var(--fonte-color-dois);
+    padding: 1rem 2rem;
+    font-family: var(--fonte-paragrafo);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.headline .btn-primary:hover {
+    background-color: var(--cor-amarelo-primario);
+}
+
+.beneficios {
+    width: 100%; 
+    max-width: 100vw; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: var(--cor-verde-secundario);
+}
+
+.beneficios h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--cor-amarelo-primario);
+}
+
+.beneficios h2:hover{
+    color: var(--cor-amarelo-terciario );
+}
+
+.beneficio {
+    background-color: var(--cor-amarelo-terciario);
+    width: 100%; 
+    max-width: 800px; 
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: var(--fonte-paragrafo);
+}
+
+.beneficio:hover {
+    background-color: var(--cor-amarelo-primario);
+}
+
+.beneficio h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.beneficio p {
+    font-size: 16px;
+    color: #555;
+    font-family: var(--fonte-paragrafo);
+}
+
+.funcionalidades {
+    width: 100%;
+    max-width: 100vw; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: var(--cor-verde-secundario);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.funcionalidades h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--cor-amarelo-primario);
+    font-family: var(--fonte-titulo);
+}
+
+.funcionalidades h2:hover{
+    color: var(--cor-amarelo-terciario);
+}
+
+.funcionalidades ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    color: var(--fonte-color-tres);
+}
+
+.funcionalidades li {
+    margin: 1rem 0;
+    font-family: var(--fonte-paragrafo);
+}
+
+.seguranca {
+    width: 100%;
+    max-width: 100vw; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: var(--cor-verde-secundario);
+    color: var(--fonte-color-dois);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.seguranca h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--cor-amarelo-primario);
+    font-family: var(--fonte-titulo);
+}
+
+.seguranca h2:hover {
+    color: var(--cor-amarelo-terciario);
+}
+
+.seguranca p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--fonte-color-tres);
+    font-family: var(--fonte-paragrafo);
+}

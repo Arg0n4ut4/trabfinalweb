@@ -1,0 +1,9 @@
+create table perfil(
+id serial,
+email varchar(50) not null unique,
+senha varchar(20) not null,
+nome varchar(80) not null,
+cpf varchar(11) not null unique,
+celular varchar(13) not null unique,
+constraint pk_perfil primary key(id));
+
